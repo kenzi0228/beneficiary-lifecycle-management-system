@@ -1,0 +1,25 @@
+# Sensitive and heavy files
+*.xlsx
+*.xls
+*.csv
+*.db
+*.sqlite
+*.sqlite3
+*.pdf
+*.docx
+
+# Local helper files
+all_txt_content.txt
+structure.txt
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc

@@ -1,0 +1,10 @@
+/**
+ * Replace these placeholders with your own Google Sheets IDs in a private local copy.
+ */
+const CONFIG = {
+  BLACKLIST_ID: 'YOUR_BLACKLIST_SHEET_ID',
+  BENEF_DB_ID: 'YOUR_BENEFICIARY_DB_ID',
+  DASHBOARD_ID: 'YOUR_DASHBOARD_SHEET_ID',
+  FORM_RESPONSES_ID: 'YOUR_FORM_RESPONSES_SHEET_ID',
+  HISTORY_ID: 'YOUR_HISTORY_SHEET_ID'
+};
