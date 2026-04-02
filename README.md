@@ -48,15 +48,31 @@ All business logic is implemented in **Apps Script modules**.
 ## 4. Project Structure
 
 ```text
-scripts/
-├── config.js
-├── init.js
-├── tests_seed.js
-├── form_intake.js
-├── beneficiary_db_blacklist.js
-├── blacklist_management.js
-├── dashboard_refresh.js
-└── selection.js
+beneficiary-lifecycle-management-system/
+├── diagrams/
+│   ├── architecture-diagram.png
+│   ├── blacklist-selection-workflow.png
+│   └── beneficiary-intake-workflow.png
+├── docs/
+│   └── archive/
+├── samples/
+│   ├── sample_beneficiary_db.csv
+│   ├── sample_blacklist_definitive.csv
+│   ├── sample_blacklist_year.csv
+│   ├── sample_form_responses.csv
+│   ├── sample_selection_history.csv
+│   └── sample_dashboard.csv
+└── scripts/
+    ├── core/
+    │   ├── beneficiary_db_blacklist.js
+    │   ├── blacklist_management.js
+    │   ├── config.js
+    │   ├── dashboard_refresh.js
+    │   ├── form_intake.js
+    │   ├── init.js
+    │   └── tests_seed.js
+    └── selection/
+        └── selection.js
 ```
 
 ---
